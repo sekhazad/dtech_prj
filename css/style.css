@@ -1,0 +1,195 @@
+/*************HOME PAGE*************************************************************/
+*{
+    margin: 0px;   
+    padding:0px;
+}
+/*HEADER*/
+.Brand-name{
+    font-family:Georgia, 'Times New Roman', Times;
+    font-size:30px;
+    font-weight:450;
+}
+.Brand-name:hover{
+    color:seagreen;
+}
+.Innernav a{
+    font-weight: bold;    
+}
+/*FOOTER*/
+.main-footer{
+    color:whitesmoke;
+}
+.main-footer ,.row{
+    justify-content:center;
+}
+
+.phone-link{
+    list-style: none;
+}
+.phone-link>li>a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.phone-link{
+    padding:0px;
+   margin:0px ;
+}
+.Contactfoot-map-addr {
+    margin:0px;
+}
+.Contactfoot-map-addr>a{
+    color:white;
+    text-decoration: none;
+}
+.Contactfoot-phone{
+    border:1px solid #e8e9ee;
+    height:3em;
+    text-align:center;
+    line-height:3em;
+    width:3em;
+    border-radius:50%;   
+}
+.Contactfoot-phone:hover{
+    background-color:seagreen;
+}
+.phone-wrap{
+    display:inline-flex;
+}
+.Contactfoot-map{
+    border:1px solid #e8e9ee;
+    height:3em;
+    text-align:center;
+    line-height:3em;
+    width:3em;
+    border-radius:50%;
+}
+.Contactfoot-map:hover{
+    background-color:seagreen;
+}
+.map-wrap{
+    display:inline-flex;
+}
+hr{
+    height:5px;
+    margin:10px;
+    padding:0px;
+    display:block;
+}
+span>a{
+    color:white;
+    height:50px;
+}
+span>a:hover{
+    color:seagreen;
+}
+.Innerfoot{
+    margin:0px ;
+}
+
+/*BODY*/ 
+          /*Carousel*/
+.mycontainer{
+    padding:0px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+/*Short About*/
+/*Short course*/
+/*short Gallery*/
+.img-gallery{
+    width:300px;
+    height:300px;
+}
+
+/***********************************************About page***********************************************************/
+.img-banner{
+    padding:0px;
+    
+}
+.img-banner img{
+    opacity: 0.4;
+}
+
+.page-banner-name{
+/*text-align: center;*/
+font-weight: bold;
+color:seagreen;
+}
+.about-content p{
+    font-size:1.4rem;
+}
+/********************************************Course page***************************************************************/
+.course-head{
+    font-weight:325; 
+    text-align: center; 
+}
+
+
+/*********************************************Gallery page******************************************************/
+.myimg-gall{
+    
+    height:300px;
+}
+.mycol{
+    padding:15px;
+}
+.mybtn{
+    padding:10px 12px;
+}
+
+/***************************************************Contact Page**************************************************************/
+.logo-contain-phone ,.logo-contain-mail{
+    list-style:none;
+}
+.contactphone-logo
+    {
+        border:3px solid #000000;
+        height:3em;
+        text-align:center;
+        line-height:3em;
+        width:3em;
+        border-radius:50%;
+        padding:0px;
+    }
+    .contactphone-logo:hover{
+        color: seagreen;
+    }
+    .contactmail-logo{
+        border:3px solid #000000;
+        height:3em;
+        text-align:center;
+        line-height:3em;
+        width:3em;
+        border-radius:50%; 
+        padding:0px; 
+    }
+    .contactmail-logo:hover{
+        color: seagreen;
+    }
+    .contactaddr-logo{
+        border:3px solid #000000;
+        height:3em;
+        text-align:center;
+        line-height:3em;
+        width:3em;
+        border-radius:50%; 
+        padding:0px; 
+    }
+    .contactaddr-logo:hover{
+        color: seagreen;
+    }
+.contactphone-main,.contactmail-main,.contactaddr-main{
+        display: inline-flex;
+    }
+.contactname-banner{
+    font-weight: 400;   
+}    
+
+
+
+
+
+
+
